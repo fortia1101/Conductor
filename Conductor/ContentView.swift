@@ -31,10 +31,12 @@ struct ConductorView: View {
     @State private var location: CGPoint = .zero
     @State private var startLocation: CGPoint = .zero
     @State private var nowPlaying: String = ""
+    @State private var oldPlaying: String = ""
     @AppStorage("whiteMode") private var whiteMode: Bool = true
     
     var body: some View {
         let sampler = Sampler(noteNum: noteNum)
+        
         let drag = DragGesture(minimumDistance: 0.0, coordinateSpace: .local)
             .onChanged({ drag in
                 location = drag.location

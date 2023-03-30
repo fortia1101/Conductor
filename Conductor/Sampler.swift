@@ -32,7 +32,7 @@ class Sampler {
     }
     
     func loadSoundFont() {
-        guard let url = Bundle.main.url(forResource: "SGM-V2.01.sf2", withExtension: "sf2") else { return }
+        guard let url = Bundle.main.url(forResource: "GeneralUser GS v1.471.sf2", withExtension: "sf2") else { return }
         try? unitSampler.loadSoundBankInstrument(
             at: url, program: 0,
             bankMSB: UInt8(kAUSampler_DefaultMelodicBankMSB),
