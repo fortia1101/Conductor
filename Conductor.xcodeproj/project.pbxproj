@@ -7,9 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		356E42EF29DA3E8200AA4E92 /* RingSound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356E42EE29DA3E8200AA4E92 /* RingSound.swift */; };
+		356E42F129DA3ECE00AA4E92 /* NowTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356E42F029DA3ECE00AA4E92 /* NowTimeView.swift */; };
+		356E42F329DA3EFE00AA4E92 /* KeyShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356E42F229DA3EFE00AA4E92 /* KeyShape.swift */; };
+		3597677629D91B7400CF7330 /* KeyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3597677529D91B7400CF7330 /* KeyModel.swift */; };
 		EE40777C29C19CD2003EBE86 /* KeyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE40777B29C19CD1003EBE86 /* KeyView.swift */; };
 		EE40777E29C19DF1003EBE86 /* Sampler.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE40777D29C19DF1003EBE86 /* Sampler.swift */; };
-		EE40778029C1A43D003EBE86 /* nowTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE40777F29C1A43D003EBE86 /* nowTimeView.swift */; };
 		EE6DE5EE29BF6F9500C56EB6 /* ConductorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6DE5ED29BF6F9500C56EB6 /* ConductorApp.swift */; };
 		EE6DE5F029BF6F9500C56EB6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6DE5EF29BF6F9500C56EB6 /* ContentView.swift */; };
 		EE6DE5F229BF6FA200C56EB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE6DE5F129BF6FA200C56EB6 /* Assets.xcassets */; };
@@ -17,9 +20,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		356E42EE29DA3E8200AA4E92 /* RingSound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingSound.swift; sourceTree = "<group>"; };
+		356E42F029DA3ECE00AA4E92 /* NowTimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowTimeView.swift; sourceTree = "<group>"; };
+		356E42F229DA3EFE00AA4E92 /* KeyShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyShape.swift; sourceTree = "<group>"; };
+		3597677529D91B7400CF7330 /* KeyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyModel.swift; sourceTree = "<group>"; };
 		EE40777B29C19CD1003EBE86 /* KeyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyView.swift; sourceTree = "<group>"; };
 		EE40777D29C19DF1003EBE86 /* Sampler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sampler.swift; sourceTree = "<group>"; };
-		EE40777F29C1A43D003EBE86 /* nowTimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nowTimeView.swift; sourceTree = "<group>"; };
 		EE6DE5EA29BF6F9500C56EB6 /* Conductor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Conductor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE6DE5ED29BF6F9500C56EB6 /* ConductorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConductorApp.swift; sourceTree = "<group>"; };
 		EE6DE5EF29BF6F9500C56EB6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -58,10 +64,13 @@
 			isa = PBXGroup;
 			children = (
 				EE6DE5ED29BF6F9500C56EB6 /* ConductorApp.swift */,
+				356E42F029DA3ECE00AA4E92 /* NowTimeView.swift */,
 				EE6DE5EF29BF6F9500C56EB6 /* ContentView.swift */,
-				EE40777F29C1A43D003EBE86 /* nowTimeView.swift */,
 				EE40777D29C19DF1003EBE86 /* Sampler.swift */,
+				356E42EE29DA3E8200AA4E92 /* RingSound.swift */,
 				EE40777B29C19CD1003EBE86 /* KeyView.swift */,
+				356E42F229DA3EFE00AA4E92 /* KeyShape.swift */,
+				3597677529D91B7400CF7330 /* KeyModel.swift */,
 				EE6DE5F129BF6FA200C56EB6 /* Assets.xcassets */,
 				EE6DE5F329BF6FA200C56EB6 /* Preview Content */,
 			);
@@ -147,9 +156,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE40777E29C19DF1003EBE86 /* Sampler.swift in Sources */,
-				EE40778029C1A43D003EBE86 /* nowTimeView.swift in Sources */,
+				356E42EF29DA3E8200AA4E92 /* RingSound.swift in Sources */,
 				EE6DE5F029BF6F9500C56EB6 /* ContentView.swift in Sources */,
+				356E42F329DA3EFE00AA4E92 /* KeyShape.swift in Sources */,
+				3597677629D91B7400CF7330 /* KeyModel.swift in Sources */,
 				EE6DE5EE29BF6F9500C56EB6 /* ConductorApp.swift in Sources */,
+				356E42F129DA3ECE00AA4E92 /* NowTimeView.swift in Sources */,
 				EE40777C29C19CD2003EBE86 /* KeyView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -279,7 +291,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Conductor/Preview Content\"";
-				DEVELOPMENT_TEAM = 2788V3ZKXR;
+				DEVELOPMENT_TEAM = VKTC7D44Q9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "吟コン";
@@ -293,12 +305,12 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Masahiro-Ohara.Conductor";
+				MARKETING_VERSION = 2.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = Team901.Conductor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -310,7 +322,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Conductor/Preview Content\"";
-				DEVELOPMENT_TEAM = 2788V3ZKXR;
+				DEVELOPMENT_TEAM = VKTC7D44Q9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "吟コン";
@@ -324,12 +336,12 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Masahiro-Ohara.Conductor";
+				MARKETING_VERSION = 2.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = Team901.Conductor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

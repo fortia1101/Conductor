@@ -1,13 +1,13 @@
 //
-//  nowTimeView.swift
+//  NowTimeView.swift
 //  Conductor
 //
-//  Created by Masahiro Ohara on 2023/03/15.
+//  Created by Masahiro Ohara on 2023/04/03.
 //
 
 import SwiftUI
 
-struct nowTimeView: View {
+struct NowTimeView: View {
     @State var dateText = ""
     @State var nowDate = Date()
     let whiteMode: Bool
@@ -34,8 +34,8 @@ struct nowTimeView: View {
     }
 }
 
-struct nowTimeView_Previews: PreviewProvider {
+struct NowTimeView_Previews: PreviewProvider {
     static var previews: some View {
-        nowTimeView(whiteMode: true)
+        NowTimeView(whiteMode: true)
     }
 }
